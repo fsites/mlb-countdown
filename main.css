@@ -1,8 +1,64 @@
-body {
-	background: #002E6D;
+html {
+	background-image: url("images/monster.png");;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
-#counter {
-	width: 300px;
-	margin: 20% auto 40% auto;
+#counter-container {
+	font-family: helvetica;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
 }
+
+.text {
+	font-weight: normal;
+}
+
+.counter {
+	width: 299px;
+	margin: -10px auto 20px auto;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+}
+
+#button-container, #button {
+	width: 299px;
+	margin: 0 auto;
+}
+
+#button {
+	height: 60px;
+	font-size: 16px;
+	background-color: rgb(84, 121, 109);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+#button:hover {
+	cursor: pointer;
+	color: rgb(255, 205, 9);
+	border-radius: 10px;
+}
+
+#button:focus, #button:active {
+	outline: none;
+	border: none;
+}
+
+/*
+Find a new font
+Change text color for each line
+Make no background color for counters
+Add spring training one / flip when button is selected
+Make background ‘cover’ some dope stadium, darken it a little
+
+Green - rgb(84, 121, 109);
+Yellow – 255 205 9
+White rgb(238,239,236)
+Blue- rgb(37,44,65)
+__
+
+*/
