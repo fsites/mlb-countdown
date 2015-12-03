@@ -1,64 +1,44 @@
 html {
-	background-image: url("images/monster.png");;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/seats.jpeg");;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
 }
 
-#content-container {
-	font-family: helvetica;
-	text-align: center;
-	color: white;
-	margin-top: 50px;
-}
-
 .text {
 	font-weight: normal;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-family: 'Josefin Slab', helvetica;
+	color: white;
 }
 
-.hidden {
-	display: none;
-}
-
-.counter {
-	width: 299px;
-	margin: -10px auto 20px auto;
-	padding-bottom: 10px;
-	border-bottom: 2px solid white;
-}
-
-#button {
-	height: 60px;
-	font-size: 16px;
-	background-color: rgb(84, 121, 109);
-	color: #fff;
-	border: none;
-	border-radius: 5px;
+#center {
+	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
-#button:hover {
-	cursor: pointer;
-	color: rgb(255, 205, 9);
-	border-radius: 10px;
+.counter {
+	width: 33.333%;
+	min-width: 286px;
+	max-width: 400px;
+	margin: 15% auto 0 auto;
+	padding: 0 0 10px 0;
+	border-bottom: 2px solid white;
+	text-align: center;
+	float: left;
 }
 
-#button:focus, #button:active {
-	outline: none;
-	border: none;
+/*MEDIA QUERIES*/
+@media (max-width: 899px) {
+	.counter {
+		float: none;
+		display: block;
+		margin: 40px auto;
+	}
+
+	#pitchers {
+		margin-top: 15%;
+	}
 }
-
-/*
-Find a new font
-Change text color for each line
-Make no background color for counters
-Add spring training one / flip when button is selected
-Make background ‘cover’ some dope stadium, darken it a little
-
-Green - rgb(84, 121, 109);
-Yellow – 255 205 9
-White rgb(238,239,236)
-Blue- rgb(37,44,65)
-__
-
-*/
