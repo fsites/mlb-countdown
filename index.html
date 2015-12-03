@@ -4,38 +4,34 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Opening Day Countdown</title>
+	<link href="http://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="main.css">
 </head>
+
 <body>
 
 <!-- COUNTERS -->
-<div id='content-container'>
-
-	<!-- OPENING DAY COUNTER -->
-	<div id="open">
-		<h2 class="text">Opening Day begins in:</h2>
-		<div class="counter">
-			<iframe src="http://free.timeanddate.com/countdown/i4yo5imi/n198/cf12/cm0/cu4/ct2/cs1/ca0/co0/cr0/ss0/cacfff/cpcf00/pct/tcfff/fs175/szw448/szh189/iso2016-04-03T10:05:00" allowTransparency="true" frameborder="0" width="299" height="71"></iframe>
-		</div>
-		<button id="button">Can't wait? </br> 
-			Click for Spring Training Countdown
-		</button>
+<div id="center">
+	<!-- PITCHERS and CATCHERS COUNTER -->
+	<div id="pitchers" class="counter">
+		<h2 class="text">Pitchers and Catchers report in:</h2>
+		<iframe src="http://free.timeanddate.com/countdown/i4yobu4c/n224/cf12/cm0/cu4/ct2/cs1/ca0/co0/cr0/ss0/cacfff/cpcf00/pct/tcfff/fs130/szw576/szh243/iso2016-02-18T08:00:00" allowTransparency="true" frameborder="0" width="257" height="68"></iframe>
 	</div>
 
 	<!-- SPRING TRAINING COUNTER -->
-	<div id="spring" class="hidden">
+	<div id="spring" class="counter">
 		<h2 class="text">First Spring Training game in:</h2>
-		<div class="counter">
-			<iframe src="http://free.timeanddate.com/countdown/i4yo5imi/n198/cf12/cm0/cu4/ct2/cs1/ca0/co0/cr0/ss0/cacfff/cpcf00/pct/tcfff/fs175/szw448/szh189/iso2016-03-02T10:05:00" allowTransparency="true" frameborder="0" width="299" height="71"></iframe>
-		</div>
-		<button id="button">Back to Opening Day </br> Countdown</button>
+		<iframe src="http://free.timeanddate.com/countdown/i4yobu4c/n224/cf12/cm0/cu4/ct2/cs1/ca0/co0/cr0/ss0/cacfff/cpcf00/pct/tcfff/fs130/szw576/szh243/iso2016-03-03T10:05:00" allowTransparency="true" frameborder="0" width="257" height="68"></iframe>
 	</div>
 
+	<!-- OPENING DAY COUNTER -->
+	<div id="open" class="counter">
+		<h2 class="text">Opening Day begins in:</h2>
+		<iframe src="http://free.timeanddate.com/countdown/i4yobu4c/n224/cf12/cm0/cu4/ct2/cs1/ca0/co0/cr0/ss0/cacfff/cpcf00/pct/tcfff/fs130/szw576/szh243/iso2016-04-01T10:05:00" allowTransparency="true" frameborder="0" width="284" height="68"></iframe>
+	</div>
 </div>
+
 
 </body>
 
-<!-- JS FILES -->
-<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
 </html>
