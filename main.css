@@ -1,5 +1,5 @@
 html {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/seats3.jpg");;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url("images/seats3.jpg");;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -23,23 +23,30 @@ html {
 	width: 33.333%;
 	min-width: 286px;
 	max-width: 400px;
-	margin: 15% auto 0 auto;
+	margin: 15% auto 30px auto;
 	padding: 0 0 10px 0;
 	border-bottom: 2px solid white;
 	text-align: center;
 	float: left;
 }
 
+#logo-container {
+	width: 900px;
+	margin: 0 auto;
+}
+
 .logo {
-	width: 60px;
+	width: 59px;
 	margin: 0;
 	display: inline-block;
 	float: left;
+	margin: 7px 0;
+	opacity: .4;
 }
 
 .logo:hover {
 	cursor: pointer;
-	border-bottom: 2px solid #fff;
+	opacity: 1;
 }
 
 /*MEDIA QUERIES*/
