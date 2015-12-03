@@ -5,7 +5,7 @@ html {
 	height: 100%;
 }
 
-#counter-container {
+#content-container {
 	font-family: helvetica;
 	text-align: center;
 	color: white;
@@ -16,16 +16,15 @@ html {
 	font-weight: normal;
 }
 
+.hidden {
+	display: none;
+}
+
 .counter {
 	width: 299px;
 	margin: -10px auto 20px auto;
 	padding-bottom: 10px;
 	border-bottom: 2px solid white;
-}
-
-#button-container, #button {
-	width: 299px;
-	margin: 0 auto;
 }
 
 #button {
@@ -35,6 +34,7 @@ html {
 	color: #fff;
 	border: none;
 	border-radius: 5px;
+	margin: 0 auto;
 }
 
 #button:hover {
